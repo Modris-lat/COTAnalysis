@@ -1,0 +1,681 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CFTC Commitments of Traders Report - NYME (Futures Only)</title>
+<!--begin meta-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="description" content="This is the viewable version of the most recent release of the NYME short form futures only commitments report." />
+<meta name="file" content="deanymesf.htm" />
+<meta name="keywords" content="commitments, short, CFTC, NYME, Futures only" />
+<meta name="office" content="dea" />
+<!--end meta-->
+
+<script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script><script type='text/javascript'>var pageTracker = _gat._getTracker("UA-21047137-1");	pageTracker._trackPageview();</script><script type="text/javascript" src="/ucm/fragments/web_header/js/gaAddons.js"></script></head>
+<body>
+<!--begin content-->
+ <pre>
+ <!--ih:includeHTML file="deanymesf.txt"-->
+ 
+ 
+GULF # 6 FUEL 3.0% SULFUR - NEW YORK MERCANTILE EXCHANGE             Code-02165A
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 BARRELS)                         OPEN INTEREST:       11,946
+COMMITMENTS
+   2,785      976      696    8,415   10,050   11,896   11,722       50      224
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -1,882)
+    -353      -61       23   -1,561   -1,879   -1,891   -1,917        9       35
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    23.3      8.2      5.8     70.4     84.1     99.6     98.1      0.4      1.9
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       33)
+       5        2        4       18       24       24       29                  
+ 
+ 
+#2 HEATING OIL- NY HARBOR-ULSD - NEW YORK MERCANTILE EXCHANGE        Code-022651
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 U.S. GALLONS)                   OPEN INTEREST:      351,038
+COMMITMENTS
+  41,668   37,476   71,426  197,809  210,168  310,903  319,070   40,135   31,968
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:    -15,885)
+   1,205      187   -2,974  -13,351  -12,373  -15,120  -15,160     -765     -725
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    11.9     10.7     20.3     56.3     59.9     88.6     90.9     11.4      9.1
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      189)
+      38       40       54       91       89      162      158                  
+ 
+ 
+UP DOWN GC ULSD VS HO SPR - NEW YORK MERCANTILE EXCHANGE             Code-022A13
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 GALLONS)                        OPEN INTEREST:       60,271
+COMMITMENTS
+       0        0        0   38,084   54,494   38,084   54,494   22,187    5,777
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -9,771)
+    -632        0     -225   -7,543   -9,992   -8,400  -10,217   -1,371      446
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     0.0      0.0      0.0     63.2     90.4     63.2     90.4     36.8      9.6
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       22)
+       0        0        0       18       18       18       18                  
+ 
+ 
+NATURAL GAS - NEW YORK MERCANTILE EXCHANGE                           Code-023651
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(Contracts of 10,000 MMBTU'S)                        OPEN INTEREST:    1,310,701
+COMMITMENTS
+ 314,799  369,708  386,662  545,173  512,232  1246634  1268602   64,067   42,099
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -5,751)
+      -1   -8,465    7,322  -12,306   -2,777   -4,985   -3,920     -766   -1,831
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    24.0     28.2     29.5     41.6     39.1     95.1     96.8      4.9      3.2
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      315)
+     104      111      134       76       73      264      250                  
+ 
+ 
+HENRY HUB LAST DAY FIN - NEW YORK MERCANTILE EXCHANGE                Code-023A55
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(Contracts of 10,000 MMBTU'S)                        OPEN INTEREST:      292,159
+COMMITMENTS
+  38,894   21,815   40,857  195,465  221,391  275,216  284,063   16,943    8,096
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      1,279)
+   1,175    1,777   -1,356    1,534      478    1,353      899      -74      380
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    13.3      7.5     14.0     66.9     75.8     94.2     97.2      5.8      2.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       79)
+      18        8       18       47       44       72       64                  
+ 
+ 
+HENRY HUB PENULTIMATE FIN - NEW YORK MERCANTILE EXCHANGE             Code-023A56
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(Contracts of 10,000 MMBTU'S)                        OPEN INTEREST:      119,943
+COMMITMENTS
+   4,014   36,973   19,638   86,685   52,858  110,337  109,469    9,606   10,474
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -1,886)
+     587   -2,231    1,186   -3,917     -852   -2,144   -1,897      258       11
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     3.3     30.8     16.4     72.3     44.1     92.0     91.3      8.0      8.7
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       52)
+       7       17       18       27       26       48       47                  
+ 
+ 
+HENRY HUB - NEW YORK MERCANTILE EXCHANGE                             Code-03565B
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(Contracts of 2,500  MMBTU'S)                        OPEN INTEREST:      740,549
+COMMITMENTS
+ 106,851   15,026   25,993  582,382  688,042  715,226  729,061   25,323   11,488
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        656)
+     484      456       51      489      149    1,024      656     -368        0
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    14.4      2.0      3.5     78.6     92.9     96.6     98.4      3.4      1.6
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       50)
+       7        3        6       36       34       45       41                  
+ 
+ 
+HENRY HUB PENULTIMATE NAT GAS - NEW YORK MERCANTILE EXCHANGE         Code-03565C
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(Contracts of 2,500  MMBTU'S)                        OPEN INTEREST:      185,979
+COMMITMENTS
+  10,730   20,209   11,606  158,708  147,974  181,044  179,789    4,935    6,190
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -787)
+  -1,061     -311     -323      -60     -268   -1,444     -902      657      115
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     5.8     10.9      6.2     85.3     79.6     97.3     96.7      2.7      3.3
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       42)
+       6        7        9       26       27       37       38                  
+ 
+ 
+COAL (API 2) CIF ARA - NEW YORK MERCANTILE EXCHANGE                  Code-024656
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 METRIC TONS)                     OPEN INTEREST:       19,098
+COMMITMENTS
+     703    6,464    1,275   16,169   10,824   18,147   18,563      951      535
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -520)
+    -111     -258      -69     -597     -181     -777     -508      257      -12
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     3.7     33.8      6.7     84.7     56.7     95.0     97.2      5.0      2.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       26)
+       3        6        5       17       15       23       23                  
+ 
+ 
+ETHANOL T2 FOB INCL DUTY - NEW YORK MERCANTILE EXCHANGE              Code-025608
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(100 CUBIC METERS)                                   OPEN INTEREST:        4,410
+COMMITMENTS
+       0      185        0    4,265    3,875    4,265    4,060      145      350
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -723)
+     -60       70      -70     -583     -690     -713     -690      -10      -33
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     0.0      4.2      0.0     96.7     87.9     96.7     92.1      3.3      7.9
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       21)
+       0        2        0       13       17       13       19                  
+ 
+ 
+CHICAGO ETHANOL - NEW YORK MERCANTILE EXCHANGE                       Code-025651
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 U.S. GALLONS)                   OPEN INTEREST:       28,325
+COMMITMENTS
+   8,150    1,062    3,367   16,428   23,758   27,945   28,187      380      138
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -7,087)
+  -1,439      604     -275   -5,293   -7,257   -7,007   -6,928      -80     -159
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    28.8      3.7     11.9     58.0     83.9     98.7     99.5      1.3      0.5
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       90)
+      10        5       11       41       63       57       77                  
+ 
+ 
+ARGUS PROPANE FAR EAST INDEX - NEW YORK MERCANTILE EXCHANGE          Code-06665B
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 METRIC TONS)                     OPEN INTEREST:        3,604
+COMMITMENTS
+      59       34      265    2,666    2,681    2,990    2,980      614      624
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -680)
+     -51      -22      -55     -538     -478     -644     -555      -36     -125
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     1.6      0.9      7.4     74.0     74.4     83.0     82.7     17.0     17.3
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       29)
+       3        1        4       24       23       28       27                  
+ 
+ 
+PROPANE NON-LDH MT BEL - NEW YORK MERCANTILE EXCHANGE                Code-06665G
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 GALLONS)                        OPEN INTEREST:       45,388
+COMMITMENTS
+     760       37        0   44,481   44,921   45,241   44,958      147      430
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -9,442)
+     -24       37      -37   -9,414   -9,388   -9,475   -9,388       33      -54
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     1.7      0.1      0.0     98.0     99.0     99.7     99.1      0.3      0.9
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       57)
+       4        1        0       34       42       38       43                  
+ 
+ 
+MT BELVIEU LDH PROPANE (OPIS) - NEW YORK MERCANTILE EXCHANGE         Code-06665O
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 GALLONS)                        OPEN INTEREST:      127,494
+COMMITMENTS
+   4,157    4,955    3,162  119,005  118,618  126,324  126,735    1,170      759
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:    -12,273)
+    -924      131      163  -11,257  -12,635  -12,018  -12,341     -255       68
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     3.3      3.9      2.5     93.3     93.0     99.1     99.4      0.9      0.6
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      117)
+      12       10       11       85       74      101       91                  
+ 
+ 
+MT BELVIEU ETHANE OPIS - NEW YORK MERCANTILE EXCHANGE                Code-06665P
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 GALLONS)                        OPEN INTEREST:       49,748
+COMMITMENTS
+   5,938      260       80   43,398   48,796   49,416   49,136      332      612
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -3,656)
+     -99      -60        0   -3,651   -3,743   -3,750   -3,803       94      147
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    11.9      0.5      0.2     87.2     98.1     99.3     98.8      0.7      1.2
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       47)
+       7        1        1       28       29       36       30                  
+ 
+ 
+MT BELV NORM BUTANE OPIS - NEW YORK MERCANTILE EXCHANGE              Code-06665Q
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 GALLONS)                        OPEN INTEREST:       56,780
+COMMITMENTS
+   5,187    1,488    1,679   49,514   52,820   56,380   55,987      400      793
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -3,284)
+    -342      248     -114   -2,761   -3,424   -3,217   -3,290      -67        6
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     9.1      2.6      3.0     87.2     93.0     99.3     98.6      0.7      1.4
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       94)
+      16        5        7       57       53       77       61                  
+ 
+ 
+MT BELV NAT GASOLINE OPIS - NEW YORK MERCANTILE EXCHANGE             Code-06665R
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 GALLONS)                        OPEN INTEREST:       33,026
+COMMITMENTS
+   1,351      225      238   31,286   32,047   32,875   32,510      151      516
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -6,397)
+    -134     -419     -172   -6,049   -6,080   -6,355   -6,671      -42      274
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     4.1      0.7      0.7     94.7     97.0     99.5     98.4      0.5      1.6
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       52)
+       5        2        2       34       40       40       43                  
+ 
+ 
+CONWAY PROPANE (OPIS) - NEW YORK MERCANTILE EXCHANGE                 Code-06665T
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 GALLONS)                        OPEN INTEREST:       22,732
+COMMITMENTS
+     108      640      478   21,185   21,186   21,771   22,304      961      428
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -2,060)
+      53      -82     -250   -1,807   -1,711   -2,004   -2,043      -56      -17
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     0.5      2.8      2.1     93.2     93.2     95.8     98.1      4.2      1.9
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       43)
+       3        2        4       35       29       39       34                  
+ 
+ 
+CRUDE OIL, LIGHT SWEET - NEW YORK MERCANTILE EXCHANGE                Code-067651
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 BARRELS)                         OPEN INTEREST:    1,972,049
+COMMITMENTS
+ 686,543  151,226  563,553  630,952  1193278  1881048  1908057   91,001   63,992
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:    -36,569)
+ -17,850   -9,341  -10,846   -7,207  -15,266  -35,903  -35,453     -666   -1,116
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    34.8      7.7     28.6     32.0     60.5     95.4     96.8      4.6      3.2
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      345)
+     116       96      155       96      109      295      293                  
+ 
+ 
+WTI FINANCIAL CRUDE OIL - NEW YORK MERCANTILE EXCHANGE               Code-06765A
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 BARRELS)                         OPEN INTEREST:      151,918
+COMMITMENTS
+  57,762   26,912      757   76,569   92,555  135,088  120,224   16,830   31,694
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:    -22,239)
+  -5,665   -2,429   -1,812  -13,962  -10,922  -21,439  -15,163     -800   -7,076
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    38.0     17.7      0.5     50.4     60.9     88.9     79.1     11.1     20.9
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       36)
+       6        4        5       12       23       19       31                  
+ 
+ 
+WTI-BRENT CALENDAR - NEW YORK MERCANTILE EXCHANGE                    Code-06765L
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 BARRELS)                         OPEN INTEREST:       98,615
+COMMITMENTS
+     978   41,473    5,849   82,014   32,036   88,841   79,358    9,774   19,257
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:    -13,460)
+  -1,053   -7,983        0  -12,691   -4,057  -13,744  -12,040      284   -1,420
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     1.0     42.1      5.9     83.2     32.5     90.1     80.5      9.9     19.5
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       20)
+       1        6        6       11        9       17       16                  
+ 
+ 
+BRENT CRUDE OIL LAST DAY - NEW YORK MERCANTILE EXCHANGE              Code-06765T
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 BARRELS)                         OPEN INTEREST:      222,406
+COMMITMENTS
+  30,887   65,542   70,173  113,421   79,005  214,481  214,720    7,925    7,686
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -7,919)
+   2,597   -2,052   -6,746   -3,888      -24   -8,037   -8,822      118      903
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    13.9     29.5     31.6     51.0     35.5     96.4     96.5      3.6      3.5
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       65)
+      22       18       32       21       21       55       59                  
+ 
+ 
+WTI  HOUSTON ARGUS/WTI TR MO - NEW YORK MERCANTILE EXCHANGE          Code-0676A5
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 BARRELS)                         OPEN INTEREST:      172,283
+COMMITMENTS
+   4,252        0        0  161,556  151,409  165,808  151,409    6,475   20,874
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        312)
+       0        0        0       57      232       57      232      255       80
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     2.5      0.0      0.0     93.8     87.9     96.2     87.9      3.8     12.1
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       31)
+       1        0        0       23       23       24       23                  
+ 
+ 
+WTI MIDLAND ARGUS VS WTI TRADE - NEW YORK MERCANTILE EXCHANGE        Code-067A71
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 BARRELS)                         OPEN INTEREST:      112,965
+COMMITMENTS
+   1,600        0        0   98,332   91,586   99,932   91,586   13,033   21,379
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      1,626)
+       0        0        0    1,471    1,347    1,471    1,347      155      279
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     1.4      0.0      0.0     87.0     81.1     88.5     81.1     11.5     18.9
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       22)
+       1        0        0       13       13       14       13                  
+ 
+ 
+WCS OIL NET ENERGY MONTHLY IND - NEW YORK MERCANTILE EXCHANGE        Code-067A75
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 U.S. BARRELS)                    OPEN INTEREST:        5,497
+COMMITMENTS
+       0       50        0    5,360    5,250    5,360    5,300      137      197
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        270)
+       0        0        0      270      270      270      270        0        0
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     0.0      0.9      0.0     97.5     95.5     97.5     96.4      2.5      3.6
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       24)
+       0        1        0       16       11       16       12                  
+ 
+ 
+PALLADIUM - NEW YORK MERCANTILE EXCHANGE                             Code-075651
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 100 TROY OUNCES)                       OPEN INTEREST:        7,225
+COMMITMENTS
+   3,251    1,737      276    2,390    4,414    5,917    6,427    1,308      798
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        145)
+     217     -178      -27     -100      334       90      129       55       16
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    45.0     24.0      3.8     33.1     61.1     81.9     89.0     18.1     11.0
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       90)
+      35       15        8       18       26       56       46                  
+ 
+ 
+PLATINUM - NEW YORK MERCANTILE EXCHANGE                              Code-076651
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 50 TROY OUNCES)                        OPEN INTEREST:       49,143
+COMMITMENTS
+  27,680   10,365    1,860   13,016   34,259   42,556   46,484    6,587    2,659
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      1,306)
+     955     -512     -211     -262    1,713      482      990      824      316
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    56.3     21.1      3.8     26.5     69.7     86.6     94.6     13.4      5.4
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      182)
+      89       28       28       39       41      140       85                  
+ 
+ 
+GASOLINE BLENDSTOCK (RBOB) - NEW YORK MERCANTILE EXCHANGE            Code-111659
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 U.S. GALLONS)                   OPEN INTEREST:      344,855
+COMMITMENTS
+  75,890   34,507   60,485  186,464  234,147  322,839  329,139   22,016   15,716
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -7,839)
+  -3,393    2,498      640   -5,066  -11,487   -7,819   -8,349      -20      510
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    22.0     10.0     17.5     54.1     67.9     93.6     95.4      6.4      4.6
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      232)
+      73       43       71       90       95      198      179                  
+ 
+ 
+HOT ROLLED COIL STEEL - NEW YORK MERCANTILE EXCHANGE                 Code-192651
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 20 SHORT TONS)                         OPEN INTEREST:       22,820
+COMMITMENTS
+   7,260    2,287    1,984   13,439   18,445   22,683   22,716      137      104
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      1,030)
+    -157     -484      562      617      993    1,022    1,071        8      -41
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    31.8     10.0      8.7     58.9     80.8     99.4     99.5      0.6      0.5
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       37)
+       5        7        5       19       15       26       25                  
+ 
+ 
+GULF JET NY HEAT OIL SPR - NEW YORK MERCANTILE EXCHANGE              Code-86465A
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 42,000 GALLONS)                        OPEN INTEREST:       18,699
+COMMITMENTS
+   1,985      360       95   16,279   18,145   18,359   18,600      340       99
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -2,863)
+    -440      -50      -20   -2,390   -2,882   -2,850   -2,952      -13       89
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    10.6      1.9      0.5     87.1     97.0     98.2     99.5      1.8      0.5
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       49)
+       3        3        2       35       21       39       26                  
+ 
+ 
+NAPHTHA CRACK SPR - NEW YORK MERCANTILE EXCHANGE                     Code-86665A
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 1,000 BARRELS)                         OPEN INTEREST:        3,829
+COMMITMENTS
+     429      181      375    2,660    3,202    3,464    3,758      365       71
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -397)
+     -37       37       84     -428     -533     -381     -412      -16       15
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    11.2      4.7      9.8     69.5     83.6     90.5     98.1      9.5      1.9
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       21)
+       4        2        3       11        9       15       14                  
+
+<!--/ih:includeHTML-->
+</pre>
+<!--end content-->
+<!--begin footer-->
+<hr />
+<p style="text-align:center;font-size:14px;margin-top:0px">Updated July 10, 2020</p>
+<!--end footer-->
+</body>
+</html>
+

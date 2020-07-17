@@ -1,0 +1,723 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CFTC Commitments of Traders Report - CME (Futures Only)</title>
+<!--begin meta-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="description" content="This is the viewable version of the most recent release of the CME short form futures only commitments report." />
+<meta name="file" content="deacmesf.htm" />
+<meta name="keywords" content="ommitments, short, CFTC, CME, Futures only" />
+<meta name="office" content="dea" />
+<!--end meta-->
+
+<script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script><script type='text/javascript'>var pageTracker = _gat._getTracker("UA-21047137-1");	pageTracker._trackPageview();</script><script type="text/javascript" src="/ucm/fragments/web_header/js/gaAddons.js"></script></head>
+<body>
+<!--begin content-->
+ <pre>
+ <!--ih:includeHTML file="deacmesf.txt"-->
+ 
+ 
+BUTTER (CASH SETTLED) - CHICAGO MERCANTILE EXCHANGE                  Code-050642
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 20,000 POUNDS)                         OPEN INTEREST:        8,990
+COMMITMENTS
+     671      720      522    7,223    7,437    8,416    8,679      574      311
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -1,366)
+    -241     -285        4   -1,216   -1,020   -1,453   -1,301       87      -65
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     7.5      8.0      5.8     80.3     82.7     93.6     96.5      6.4      3.5
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       42)
+       3        7        8       25       22       34       31                  
+ 
+ 
+MILK, Class III - CHICAGO MERCANTILE EXCHANGE                        Code-052641
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 200,000 POUNDS)                        OPEN INTEREST:       23,977
+COMMITMENTS
+  12,997    4,197    1,042    6,373   14,068   20,412   19,307    3,565    4,670
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -4,422)
+  -1,810     -772     -484   -2,451   -2,799   -4,745   -4,055      323     -367
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    54.2     17.5      4.3     26.6     58.7     85.1     80.5     14.9     19.5
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       70)
+      22       14       13       17       29       46       49                  
+ 
+ 
+NON FAT DRY MILK - CHICAGO MERCANTILE EXCHANGE                       Code-052642
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 44,000 LBS.)                           OPEN INTEREST:        7,923
+COMMITMENTS
+   1,197      372      476    5,826    6,466    7,499    7,314      424      609
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -1,669)
+    -215     -292      -56   -1,302   -1,294   -1,573   -1,642      -96      -27
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    15.1      4.7      6.0     73.5     81.6     94.6     92.3      5.4      7.7
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       44)
+       5        3        6       31       21       38       28                  
+ 
+ 
+CME MILK IV - CHICAGO MERCANTILE EXCHANGE                            Code-052644
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 200,000 POUNDS)                        OPEN INTEREST:        5,387
+COMMITMENTS
+       0    3,540      403    4,607      968    5,010    4,911      377      476
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -815)
+      -3     -539      -31     -789     -435     -823   -1,005        8      190
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     0.0     65.7      7.5     85.5     18.0     93.0     91.2      7.0      8.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       22)
+       0        7        5       13        8       18       15                  
+ 
+ 
+LEAN HOGS - CHICAGO MERCANTILE EXCHANGE                              Code-054642
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 40,000 POUNDS)                         OPEN INTEREST:      230,267
+COMMITMENTS
+  80,648   76,767   49,181   80,665   79,753  210,494  205,701   19,773   24,566
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      4,670)
+     992      -50    1,783    1,419    2,373    4,194    4,106      476      564
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    35.0     33.3     21.4     35.0     34.6     91.4     89.3      8.6     10.7
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      291)
+      79      112      102       50       69      198      229                  
+ 
+ 
+LIVE CATTLE - CHICAGO MERCANTILE EXCHANGE                            Code-057642
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 40,000 POUNDS)                         OPEN INTEREST:      271,400
+COMMITMENTS
+  73,759   45,411   50,755  120,612  140,526  245,126  236,692   26,274   34,708
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -3,697)
+   2,778   -1,692   -2,127   -3,203     -900   -2,552   -4,719   -1,145    1,022
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    27.2     16.7     18.7     44.4     51.8     90.3     87.2      9.7     12.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      352)
+      95       84      104      102      130      255      276                  
+ 
+ 
+RANDOM LENGTH LUMBER - CHICAGO MERCANTILE EXCHANGE                   Code-058643
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 110,000 BOARD FEET)                    OPEN INTEREST:        2,951
+COMMITMENTS
+     716      339      148    1,028    1,586    1,892    2,073    1,059      878
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        331)
+     -30       -3       71      194      196      235      264       96       67
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    24.3     11.5      5.0     34.8     53.7     64.1     70.2     35.9     29.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       35)
+       8        6        2       13       12       23       19                  
+ 
+ 
+FEEDER CATTLE - CHICAGO MERCANTILE EXCHANGE                          Code-061641
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 50,000 POUNDS)                         OPEN INTEREST:       37,359
+COMMITMENTS
+  12,118    9,939    6,770   12,133    9,623   31,021   26,332    6,338   11,027
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        615)
+     123      570      -45      526     -391      604      134       11      481
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    32.4     26.6     18.1     32.5     25.8     83.0     70.5     17.0     29.5
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      158)
+      36       44       41       38       49       97      118                  
+ 
+ 
+CHEESE (CASH-SETTLED) - CHICAGO MERCANTILE EXCHANGE                  Code-063642
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF 20,000 POUNDS)                         OPEN INTEREST:       22,006
+COMMITMENTS
+   1,005    9,251      501   20,029   11,630   21,535   21,382      471      624
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -3,485)
+     -82   -2,262      -41   -3,357   -1,069   -3,480   -3,372       -5     -113
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     4.6     42.0      2.3     91.0     52.8     97.9     97.2      2.1      2.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       58)
+      12        8        6       25       23       42       32                  
+ 
+ 
+RUSSIAN RUBLE - CHICAGO MERCANTILE EXCHANGE                          Code-089741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF RUB 2,500,000)                         OPEN INTEREST:       23,446
+COMMITMENTS
+  13,528    2,422        0    8,742   19,661   22,270   22,083    1,176    1,363
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -832)
+  -1,464     -635        0      688     -197     -776     -832      -56        0
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    57.7     10.3      0.0     37.3     83.9     95.0     94.2      5.0      5.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       36)
+      13       10        0        7        8       20       18                  
+ 
+ 
+CANADIAN DOLLAR - CHICAGO MERCANTILE EXCHANGE                        Code-090741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF CAD 100,000)                           OPEN INTEREST:      121,226
+COMMITMENTS
+  31,660   48,478      913   64,037   46,157   96,610   95,548   24,616   25,678
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      3,029)
+   3,486     -215      -59      209    1,358    3,636    1,084     -607    1,945
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    26.1     40.0      0.8     52.8     38.1     79.7     78.8     20.3     21.2
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       95)
+      22       24       12       30       31       56       63                  
+ 
+ 
+SWISS FRANC - CHICAGO MERCANTILE EXCHANGE                            Code-092741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF CHF 125,000)                           OPEN INTEREST:       45,115
+COMMITMENTS
+  12,832    9,054       32   15,528   25,310   28,392   34,396   16,723   10,719
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      3,715)
+      36      596       21    1,533    2,405    1,590    3,022    2,125      693
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    28.4     20.1      0.1     34.4     56.1     62.9     76.2     37.1     23.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       39)
+       6        8        3       11       17       19       26                  
+ 
+ 
+MEXICAN PESO - CHICAGO MERCANTILE EXCHANGE                           Code-095741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF MXN 500,000)                           OPEN INTEREST:      122,938
+COMMITMENTS
+  50,848   35,868      601   66,779   82,680  118,228  119,149    4,710    3,789
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        931)
+  -4,947    1,029      279    5,147       86      479    1,394      452     -463
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    41.4     29.2      0.5     54.3     67.3     96.2     96.9      3.8      3.1
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      124)
+      36       41        7       22       33       61       79                  
+ 
+ 
+BRITISH POUND STERLING - CHICAGO MERCANTILE EXCHANGE                 Code-096742
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF GBP 62,500)                            OPEN INTEREST:      180,696
+COMMITMENTS
+  39,892   56,300    4,788  116,764   90,146  161,444  151,234   19,252   29,462
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -5,448)
+   5,468      886      141  -11,229   -4,170   -5,620   -3,143      172   -2,305
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    22.1     31.2      2.6     64.6     49.9     89.3     83.7     10.7     16.3
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      105)
+      19       28       14       28       45       56       78                  
+ 
+ 
+JAPANESE YEN - CHICAGO MERCANTILE EXCHANGE                           Code-097741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF JPY 12,500,000)                        OPEN INTEREST:      138,313
+COMMITMENTS
+  44,043   27,231      916   70,580   88,421  115,539  116,568   22,774   21,745
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        951)
+   1,288    8,337   -1,279    1,662   -8,921    1,671   -1,863     -720    2,814
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    31.8     19.7      0.7     51.0     63.9     83.5     84.3     16.5     15.7
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       94)
+      18       23       10       30       36       53       64                  
+ 
+ 
+EURO FX - CHICAGO MERCANTILE EXCHANGE                                Code-099741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF EUR 125,000)                           OPEN INTEREST:      593,341
+COMMITMENTS
+ 185,159   81,562    7,595  311,843  466,973  504,597  556,130   88,744   37,211
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     13,603)
+   4,772      130      980    5,004   13,006   10,756   14,116    2,847     -513
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    31.2     13.7      1.3     52.6     78.7     85.0     93.7     15.0      6.3
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      265)
+      79       41       29      107       74      193      137                  
+ 
+ 
+EURO FX/BRITISH POUND XRATE - CHICAGO MERCANTILE EXCHANGE            Code-299741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF EUR 125,000)                           OPEN INTEREST:       23,701
+COMMITMENTS
+   3,357    3,518      554    7,552   15,128   11,463   19,200   12,238    4,501
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -340)
+    -919   -1,506      436      244      722     -239     -348     -101        8
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    14.2     14.8      2.3     31.9     63.8     48.4     81.0     51.6     19.0
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       23)
+       5        4        2       12       10       19       14                  
+ 
+ 
+BRAZILIAN REAL - CHICAGO MERCANTILE EXCHANGE                         Code-102741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF BRL 100,000)                           OPEN INTEREST:       22,285
+COMMITMENTS
+   6,147   15,762       92   13,949    3,357   20,188   19,211    2,097    3,074
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -5,050)
+    -553   -1,647   -1,815   -2,687   -1,511   -5,055   -4,973        5      -77
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    27.6     70.7      0.4     62.6     15.1     90.6     86.2      9.4     13.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       42)
+      11       14        3       11        7       24       22                  
+ 
+ 
+NEW ZEALAND DOLLAR - CHICAGO MERCANTILE EXCHANGE                     Code-112741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF NZD 100,000)                           OPEN INTEREST:       31,229
+COMMITMENTS
+  15,806   16,123    1,141   10,895    9,996   27,842   27,260    3,387    3,969
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        384)
+    -508      165      538      533     -760      563      -57     -179      441
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    50.6     51.6      3.7     34.9     32.0     89.2     87.3     10.8     12.7
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       79)
+      32       22        9       16       12       52       39                  
+ 
+ 
+SOUTH AFRICAN RAND - CHICAGO MERCANTILE EXCHANGE                     Code-122741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF ZAR 500,000)                           OPEN INTEREST:       10,947
+COMMITMENTS
+   8,211    2,594        0    2,234    7,337   10,445    9,931      502    1,016
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -710)
+  -1,047       23        0      242     -695     -805     -672       95      -38
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    75.0     23.7      0.0     20.4     67.0     95.4     90.7      4.6      9.3
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       25)
+       8       10        0        4        4       12       14                  
+ 
+ 
+3-MONTH EURODOLLARS - CHICAGO MERCANTILE EXCHANGE                    Code-132741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF $1,000,000)                            OPEN INTEREST:    9,884,505
+COMMITMENTS
+ 1322197  1323125  2679511  5176386  5123449  9178094  9126085  706,411  758,420
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:    131,790)
+  22,259    4,749   32,508    3,185   11,903   57,952   49,160   73,838   82,630
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    13.4     13.4     27.1     52.4     51.8     92.9     92.3      7.1      7.7
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      222)
+      51       47       81      102      107      198      199                  
+ 
+ 
+BITCOIN - CHICAGO MERCANTILE EXCHANGE                                Code-133741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(5 Bitcoins)                                         OPEN INTEREST:        8,165
+COMMITMENTS
+   6,020    7,505       85        0        0    6,105    7,590    2,060      575
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:        490)
+     324      583      -20        0        0      304      563      186      -73
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    73.7     91.9      1.0      0.0      0.0     74.8     93.0     25.2      7.0
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       64)
+      38       26        6        0        0       43       27                  
+ 
+ 
+3-MONTH SOFR - CHICAGO MERCANTILE EXCHANGE                           Code-134741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+($2,500 x Contract IMM Index)                        OPEN INTEREST:      150,934
+COMMITMENTS
+  12,144   39,966   24,575  114,070   86,319  150,789  150,860      145       74
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -301)
+     393     -593     -619      -57      954     -283     -258      -18      -43
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     8.0     26.5     16.3     75.6     57.2     99.9    100.0      0.1      0.0
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       56)
+      12       19       20       13       22       38       49                  
+ 
+ 
+1-MONTH SOFR - CHICAGO MERCANTILE EXCHANGE                           Code-134742
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+($4,167 x Contract IMM Index)                        OPEN INTEREST:      205,909
+COMMITMENTS
+  34,068   65,100   15,945  155,746  124,709  205,759  205,754      150      155
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:    -93,128)
+  10,744  -38,318   -6,216  -97,755  -48,124  -93,227  -92,658       99     -470
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    16.5     31.6      7.7     75.6     60.6     99.9     99.9      0.1      0.1
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       77)
+      13       23       23       17       36       40       73                  
+ 
+ 
+S&P 500 Consolidated - CHICAGO MERCANTILE EXCHANGE                   Code-13874+
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(S&P 500 INDEX X $250.00)                            OPEN INTEREST:      533,758
+COMMITMENTS
+  73,098   80,874   11,764  393,705  373,090  478,566  465,728   55,192   68,030
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -4,729)
+    -452   -5,523    1,269   -4,841   -1,041   -4,024   -5,295     -705      566
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    13.7     15.2      2.2     73.8     69.9     89.7     87.3     10.3     12.7
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      578)
+      91      104       55      261      275      377      409                  
+ 
+ 
+E-MINI S&P 500 STOCK INDEX - CHICAGO MERCANTILE EXCHANGE             Code-13874A
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+($50 X S&P 500 INDEX)                                OPEN INTEREST:    2,618,026
+COMMITMENTS
+ 363,878  400,052   56,829  1952670  1841500  2373377  2298381  244,649  319,645
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:    -29,696)
+  -2,260  -15,680    4,355  -27,282  -16,185  -25,187  -27,510   -4,509   -2,186
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    13.9     15.3      2.2     74.6     70.3     90.7     87.8      9.3     12.2
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      577)
+      91      103       53      260      273      374      406                  
+ 
+ 
+E-MINI S&P 400 STOCK INDEX - CHICAGO MERCANTILE EXCHANGE             Code-33874A
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(S&P 400 INDEX X $100)                               OPEN INTEREST:       62,850
+COMMITMENTS
+   5,938    4,942      282   48,092   52,522   54,312   57,746    8,538    5,104
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -651)
+  -1,192     -694        0      705     -288     -487     -982     -164      331
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+     9.4      7.9      0.4     76.5     83.6     86.4     91.9     13.6      8.1
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       69)
+       7        6        6       36       32       46       41                  
+ 
+ 
+NASDAQ-100 Consolidated - CHICAGO MERCANTILE EXCHANGE                Code-20974+
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(NASDAQ 100 INDEX X $100)                            OPEN INTEREST:       42,507
+COMMITMENTS
+  16,359    7,419      634   18,992   27,594   35,985   35,647    6,522    6,860
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      3,691)
+     704      527      195    2,501    2,499    3,400    3,222      291      469
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    38.5     17.5      1.5     44.7     64.9     84.7     83.9     15.3     16.1
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      266)
+      68       43       19       99       96      176      149                  
+ 
+ 
+NASDAQ-100 STOCK INDEX (MINI) - CHICAGO MERCANTILE EXCHANGE          Code-209742
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(NASDAQ 100 STOCK INDEX X $20)                       OPEN INTEREST:      212,535
+COMMITMENTS
+  81,797   37,097    3,169   94,961  137,971  179,927  178,237   32,608   34,298
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     18,454)
+   3,518    2,637      977   12,504   12,494   16,999   16,108    1,455    2,346
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    38.5     17.5      1.5     44.7     64.9     84.7     83.9     15.3     16.1
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      266)
+      68       43       19       99       96      176      149                  
+ 
+ 
+AUSTRALIAN DOLLAR - CHICAGO MERCANTILE EXCHANGE                      Code-232741
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(CONTRACTS OF AUD 100,000)                           OPEN INTEREST:      105,115
+COMMITMENTS
+  44,740   45,434      883   38,279   40,090   83,902   86,407   21,213   18,708
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      4,457)
+   4,715    2,501     -521   -2,750    5,170    1,444    7,150    3,013   -2,693
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    42.6     43.2      0.8     36.4     38.1     79.8     82.2     20.2     17.8
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       72)
+      18       19        9       23       21       47       43                  
+ 
+ 
+E-MINI RUSSELL 2000 INDEX - CHICAGO MERCANTILE EXCHANGE              Code-239742
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(RUSSEL 2000 INDEX X $50)                            OPEN INTEREST:      529,222
+COMMITMENTS
+  88,203   80,698    8,022  410,721  418,556  506,946  507,276   22,276   21,946
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:     -7,200)
+  -1,826   10,321     -568   -6,583  -18,898   -8,977   -9,145    1,777    1,945
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    16.7     15.2      1.5     77.6     79.1     95.8     95.9      4.2      4.1
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:      331)
+      58       44       19      138      145      205      199                  
+ 
+ 
+NIKKEI STOCK AVERAGE YEN DENOM - CHICAGO MERCANTILE EXCHANGE         Code-240743
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(NIKKEI INDEX X JPY 500)                             OPEN INTEREST:       36,179
+COMMITMENTS
+   5,702    3,084       82   23,832   21,365   29,616   24,531    6,563   11,648
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:      1,642)
+     498   -1,171      -38    1,158      353    1,618     -856       24    2,498
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    15.8      8.5      0.2     65.9     59.1     81.9     67.8     18.1     32.2
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       56)
+      11        7        2       24       20       35       29                  
+ 
+ 
+S&P 500 ANNUAL DIVIDEND INDEX - CHICAGO MERCANTILE EXCHANGE          Code-43874A
+FUTURES ONLY POSITIONS AS OF 07/07/20                         |
+--------------------------------------------------------------| NONREPORTABLE
+      NON-COMMERCIAL      |   COMMERCIAL    |      TOTAL      |   POSITIONS
+--------------------------|-----------------|-----------------|-----------------
+  LONG  | SHORT  |SPREADS |  LONG  | SHORT  |  LONG  | SHORT  |  LONG  | SHORT
+--------------------------------------------------------------------------------
+(S&P 500 ANNUAL DIVIDEND INDEX X $250)               OPEN INTEREST:      156,077
+COMMITMENTS
+  48,241      399    5,357  102,196  150,276  155,794  156,032      283       45
+
+CHANGES FROM 06/30/20 (CHANGE IN OPEN INTEREST:       -530)
+    -791        0      200      274     -729     -317     -529     -213       -1
+
+PERCENT OF OPEN INTEREST FOR EACH CATEGORY OF TRADERS
+    30.9      0.3      3.4     65.5     96.3     99.8    100.0      0.2      0.0
+
+NUMBER OF TRADERS IN EACH CATEGORY (TOTAL TRADERS:       80)
+      28        3        5       42       27       73       34                  
+
+<!--/ih:includeHTML-->
+</pre>
+<!--end content-->
+<!--begin footer-->
+<hr />
+<p style="text-align:center;font-size:14px;margin-top:0px">Updated July 10, 2020</p>
+<!--end footer-->
+</body>
+</html>
+
