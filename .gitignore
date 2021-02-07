@@ -1,4 +1,11 @@
-
+  
+node_modules
+*/**/bin/*
+*/**/obj/*
+*/**/packages/*
+*/**/.vs/*
+/packages/*
+/**/*.user
 #Ignore thumbnails created by Windows
 Thumbs.db
 #Ignore files built by Visual Studio
