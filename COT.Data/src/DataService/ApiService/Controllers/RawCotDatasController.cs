@@ -1,27 +1,23 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
+using ApiService.Controllers.AbstractControllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CoreLibrary.Interfaces;
 using CoreLibrary.Models;
 using DataLibrary.Models;
+using ServiceLibrary.Interfaces;
 
 namespace ApiService.Controllers
 {
-    public class RawCotDatasController : Controller
+    public class RawCotDatasController : BasicApiController
     {
-        private readonly CotDataContext _context;
-        private IDownloadRawCotData _downloadData;
-
-        public RawCotDatasController(CotDataContext context)
-        {
-            _context = context;
-        }
+        public RawCotDatasController(IRawCotDataService rawCotDataService): base(rawCotDataService) { }
 
         // GET: RawCotDatas
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.RawCotData.ToListAsync());
+            return View(_rawCotDataService.Get());
         }
 
         // GET: RawCotDatas/Details/5
@@ -32,8 +28,7 @@ namespace ApiService.Controllers
                 return NotFound();
             }
 
-            var rawCotData = await _context.RawCotData
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var rawCotData = await _rawCotDataService.GetById(id.Value);
             if (rawCotData == null)
             {
                 return NotFound();
@@ -57,8 +52,7 @@ namespace ApiService.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(rawCotData);
-                await _context.SaveChangesAsync();
+                _rawCotDataService.Create(rawCotData);
                 return RedirectToAction(nameof(Index));
             }
             return View(rawCotData);
@@ -72,7 +66,7 @@ namespace ApiService.Controllers
                 return NotFound();
             }
 
-            var rawCotData = await _context.RawCotData.FindAsync(id);
+            var rawCotData = await _rawCotDataService.GetById(id.Value);
             if (rawCotData == null)
             {
                 return NotFound();
@@ -96,8 +90,7 @@ namespace ApiService.Controllers
             {
                 try
                 {
-                    _context.Update(rawCotData);
-                    await _context.SaveChangesAsync();
+                    _rawCotDataService.Update(rawCotData);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -123,8 +116,7 @@ namespace ApiService.Controllers
                 return NotFound();
             }
 
-            var rawCotData = await _context.RawCotData
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var rawCotData = await _rawCotDataService.GetById(id.Value);
             if (rawCotData == null)
             {
                 return NotFound();
@@ -138,15 +130,14 @@ namespace ApiService.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var rawCotData = await _context.RawCotData.FindAsync(id);
-            _context.RawCotData.Remove(rawCotData);
-            await _context.SaveChangesAsync();
+            var rawCotData = await _rawCotDataService.GetById(id);
+            _rawCotDataService.Delete(rawCotData);
             return RedirectToAction(nameof(Index));
         }
 
         private bool RawCotDataExists(int id)
         {
-            return _context.RawCotData.Any(e => e.Id == id);
+            return _rawCotDataService.Exists(id);
         }
     }
 }

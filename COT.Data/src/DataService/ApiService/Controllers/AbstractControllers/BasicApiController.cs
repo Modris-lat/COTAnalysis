@@ -1,11 +1,9 @@
-﻿using CoreLibrary.Interfaces;
-using DataLibrary.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ServiceLibrary.Interfaces;
 
-namespace ApiService.Controllers
+namespace ApiService.Controllers.AbstractControllers
 {
-    public class BasicApiController : Controller
+    public abstract class BasicApiController : Controller
     {
         protected readonly IRawCotDataService _rawCotDataService;
 
