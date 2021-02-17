@@ -10,24 +10,29 @@ namespace DataLibrary.Models
         public CotDataContext(DbContextOptions<CotDataContext> options)
             : base(options) { }
 
-        public DbSet<CotDataDb> Rub { get; set; }
-        public DbSet<CotDataDb> Chf { get; set; }
-        public DbSet<CotDataDb> Btc { get; set; }
-        public DbSet<CotDataDb> Eur { get; set; }
-        public DbSet<CotDataDb> Gbp { get; set; }
-        public DbSet<CotDataDb> Nzd { get; set; }
-        public DbSet<CotDataDb> Aud { get; set; }
-        public DbSet<CotDataDb> Jpy { get; set; }
-        public DbSet<CotDataDb> Cad { get; set; }
-        public DbSet<CotDataDb> Usd { get; set; }
-        public DbSet<CotDataDb> Gold { get; set; }
-        public DbSet<CotDataDb> Silver { get; set; }
-        public DbSet<CotDataDb> CrudeOil { get; set; }
-        public DbSet<CotDataDb> NaturalGas { get; set; }
+        public DbSet<RubData> Rub { get; set; }
+        public DbSet<ChfData> Chf { get; set; }
+        public DbSet<BtcData> Btc { get; set; }
+        public DbSet<EurData> Eur { get; set; }
+        public DbSet<GbpData> Gbp { get; set; }
+        public DbSet<NzdData> Nzd { get; set; }
+        public DbSet<AudData> Aud { get; set; }
+        public DbSet<JpyData> Jpy { get; set; }
+        public DbSet<CadData> Cad { get; set; }
+        public DbSet<UsdData> Usd { get; set; }
+        public DbSet<GoldData> Gold { get; set; }
+        public DbSet<SilverData> Silver { get; set; }
+        public DbSet<CrudeOilData> CrudeOil { get; set; }
+        public DbSet<NatGasData> NaturalGas { get; set; }
+        public DbSet<RawCotData> RawCotData { get; set; }
 
         public async Task<int> SaveAsync()
         {
             return await SaveChangesAsync();
+        }
+        public void EnsureDataBaseCreated()
+        {
+            Database.EnsureCreatedAsync();
         }
     }
 }

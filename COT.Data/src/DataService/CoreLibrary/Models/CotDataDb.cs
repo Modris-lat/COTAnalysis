@@ -1,8 +1,12 @@
-﻿namespace CoreLibrary.Models
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace CoreLibrary.Models
 {
     public class CotDataDb: Entity
     {
-        public string Date { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime Date { get; set; }
         public double Long { get; set; }
         public double Short { get; set; }
         public double PercentLong { get; set; }

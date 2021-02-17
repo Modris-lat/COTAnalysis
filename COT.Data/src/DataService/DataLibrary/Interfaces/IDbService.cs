@@ -14,6 +14,7 @@ namespace DataLibrary.Interfaces
         Task<T> GetById<T>(int id) where T : Entity;
         ServiceResult Create<T>(T entity) where T : Entity;
         ServiceResult Delete<T>(T entity) where T : Entity;
+        ServiceResult Update<T>(T entity) where T : Entity;
         ServiceResult ClearAll<T>() where T : Entity;
         bool Exists<T>(int id) where T : Entity;
     }

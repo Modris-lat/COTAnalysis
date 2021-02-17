@@ -8,16 +8,14 @@ namespace CoreLibrary.Services
     public class DownloadRawCotData: WebClient, IDownloadRawCotData
     {
         private readonly IDictionary<string, string> _rawCotData;
-        private readonly IDictionary<string, string> _urlList;
 
-        public DownloadRawCotData(IDictionary<string, string> urlList)
+        public DownloadRawCotData()
         {
             _rawCotData = new Dictionary<string, string>{};
-            _urlList = urlList;
         }
-        public async Task<IDictionary<string, string>> Download()
+        public async Task<IDictionary<string, string>> Download(IDictionary<string, string> urlList)
         {
-            foreach (var item in _urlList)
+            foreach (var item in urlList)
             {
                 _rawCotData.Add(item.Key, await DownloadStringTaskAsync(item.Value));
             }

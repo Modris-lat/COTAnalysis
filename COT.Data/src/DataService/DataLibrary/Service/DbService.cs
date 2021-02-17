@@ -60,6 +60,18 @@ namespace DataLibrary.Service
             return new ServiceResult(true);
         }
 
+        public ServiceResult Update<T>(T entity) where T : Entity
+        {
+            if (entity == null)
+            {
+                throw new ArgumentException(nameof(entity));
+            }
+
+            _ctx.Entry(entity).State = EntityState.Modified;
+            _ctx.SaveChanges();
+            return new ServiceResult(true).Set(entity);
+        }
+
         public ServiceResult ClearAll<T>() where T : Entity
         {
             _ctx.Set<T>().RemoveRange(_ctx.Set<T>());

@@ -12,13 +12,13 @@ namespace Unit.Tests
 
         public DownloadRawCotDataTest()
         {
-            _download = new DownloadRawCotData(RawCotDataUrl.UrlList);
+            _download = new DownloadRawCotData();
         }
 
         [Fact]
         public async Task DownloadReturnFourItems()
         {
-            var data = await _download.Download();
+            var data = await _download.Download(RawCotDataUrl.UrlList);
             int actualItemCount = data.Count;
             int expectedItemsCount = 4;
             Assert.Equal(expectedItemsCount, actualItemCount);
