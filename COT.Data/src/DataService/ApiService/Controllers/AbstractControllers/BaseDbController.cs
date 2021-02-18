@@ -5,18 +5,16 @@ using System.Threading.Tasks;
 using CoreLibrary.Interfaces;
 using DataLibrary.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using ServiceLibrary.Interfaces;
 
 namespace ApiService.Controllers.AbstractControllers
 {
     public class BaseDbController: ControllerBase
     {
-        protected readonly ICotDataContext _dbService;
-        protected readonly IDownloadRawCotData _getRawCotData;
-
-        public BaseDbController(ICotDataContext dbService, IDownloadRawCotData getRawCotData)
+        protected readonly IProcessDataService _processData;
+        public BaseDbController(IProcessDataService processData)
         {
-            _dbService = dbService;
-            _getRawCotData = getRawCotData;
+            _processData = processData;
         }
     }
 }

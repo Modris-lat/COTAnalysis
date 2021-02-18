@@ -9,6 +9,7 @@ using CoreLibrary.Interfaces;
 using CoreLibrary.Models;
 using CoreLibrary.Static;
 using DataLibrary.Interfaces;
+using ServiceLibrary.Interfaces;
 
 namespace ApiService.Controllers
 {
@@ -16,34 +17,19 @@ namespace ApiService.Controllers
     [ApiController]
     public class DbServiceController : BaseDbController
     {
-        public DbServiceController(ICotDataContext dbService, IDownloadRawCotData getRawCotData): 
-            base(dbService, getRawCotData){ }
+        public DbServiceController(IProcessDataService processData): 
+            base(processData){ }
 
         [HttpPost("{input}")]
         public async Task<IActionResult> Post(string input)
         {
             if (input == "download")
             {
-                var data = await GetData();
-                await _dbService.RawCotData.AddAsync(data);
-                await _dbService.SaveAsync();
-                return Ok(data);
+                var result = await _processData.SaveRawData();
+                return Ok(result);
             }
 
             return BadRequest();
-        }
-
-        async Task<RawCotData> GetData()
-        {
-            var data = await _getRawCotData.Download(RawCotDataUrl.UrlList);
-            return new RawCotData
-            {
-                Date = DateTime.Now,
-                ChicagoExchange = data["currency"],
-                CommodityExchange = data["commodity"],
-                IceExchange = data["ice"],
-                NewYorkExchange = data["energy"]
-            };
         }
     }
 }

@@ -5,6 +5,6 @@ namespace CoreLibrary.Interfaces
 {
     public interface IFilterData
     {
-        IEnumerable<CotDataDb> Filter(string data);
+        IList<double> Filter(string inputData, string symbol);
     }
 }
