@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using CoreLibrary.Interfaces;
 using CoreLibrary.Services;
-using CoreLibrary.Services.FilteringServices;
 using CoreLibrary.Static;
 
 namespace ConsoleApp

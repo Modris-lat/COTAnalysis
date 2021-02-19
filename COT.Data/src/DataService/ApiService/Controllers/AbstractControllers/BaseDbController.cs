@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CoreLibrary.Interfaces;
-using DataLibrary.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ServiceLibrary.Interfaces;
 
 namespace ApiService.Controllers.AbstractControllers

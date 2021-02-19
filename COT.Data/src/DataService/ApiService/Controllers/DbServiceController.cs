@@ -1,14 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using ApiService.Controllers.AbstractControllers;
-using CoreLibrary.Interfaces;
-using CoreLibrary.Models;
-using CoreLibrary.Static;
-using DataLibrary.Interfaces;
+using ApiService.Models;
 using ServiceLibrary.Interfaces;
 
 namespace ApiService.Controllers
@@ -20,16 +14,36 @@ namespace ApiService.Controllers
         public DbServiceController(IProcessDataService processData): 
             base(processData){ }
 
-        [HttpPost("{input}")]
-        public async Task<IActionResult> Post(string input)
+        [HttpPost("{download}")]
+        public async Task<IActionResult> PostRawData(string download)
         {
-            if (input == "download")
+            var date = DateTime.Now;
+            if (download == "download")
             {
-                var result = await _processData.SaveRawData();
+                var result = await _processData.SaveRawData(date);
                 return Ok(result);
             }
 
             return BadRequest();
+        }
+        [HttpPost("rub")]
+        public IActionResult PostRubData(SaveRequest saveRub)
+        {
+            try
+            {
+                var date = DateTime.Parse(saveRub.Date);
+                if (saveRub.Command == "save")
+                {
+                    var result = _processData.SaveRubData(date);
+                    return Ok(result);
+                }
+
+                return NotFound();
+            }
+            catch(Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
     }
 }

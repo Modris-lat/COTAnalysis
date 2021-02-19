@@ -10,10 +10,10 @@ namespace CoreLibrary.Static
         public static string NewYorkExchange => "https://www.cftc.gov/dea/futures/deanymesf.htm";
         public static IDictionary<string, string> UrlList => new Dictionary<string, string>
         {
-            {"currency", ChicagoExchange},
-            {"commodity", CommodityExchange},
-            {"ice", IceFutures},
-            {"energy", NewYorkExchange}
+            {DataType.Currency, ChicagoExchange},
+            {DataType.Commodity, CommodityExchange},
+            {DataType.Ice, IceFutures},
+            {DataType.Energy, NewYorkExchange}
         };
     }
 }

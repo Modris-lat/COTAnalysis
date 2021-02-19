@@ -1,11 +1,8 @@
-﻿using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using ApiService.Controllers.AbstractControllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CoreLibrary.Interfaces;
 using CoreLibrary.Models;
-using DataLibrary.Models;
 using ServiceLibrary.Interfaces;
 
 namespace ApiService.Controllers

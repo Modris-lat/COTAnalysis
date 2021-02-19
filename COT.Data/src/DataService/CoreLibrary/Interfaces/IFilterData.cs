@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using CoreLibrary.Models;
 
 namespace CoreLibrary.Interfaces
 {

@@ -1,0 +1,54 @@
+﻿@model CoreLibrary.Models.RubData
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>AudData</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Long)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Long)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Short)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Short)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PercentLong)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PercentLong)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PercentShort)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PercentShort)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NetPositions)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NetPositions)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

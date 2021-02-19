@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CoreLibrary.Static
+﻿namespace CoreLibrary.Static
 {
     public static class Symbols
     {

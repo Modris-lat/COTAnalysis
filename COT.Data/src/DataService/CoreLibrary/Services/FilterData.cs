@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using CoreLibrary.Interfaces;
-using CoreLibrary.Models;
 
-namespace CoreLibrary.Services.FilteringServices
+namespace CoreLibrary.Services
 {
     public class FilterData: IFilterData
     {

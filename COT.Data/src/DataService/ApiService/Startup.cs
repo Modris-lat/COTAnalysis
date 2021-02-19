@@ -35,9 +35,11 @@ namespace ApiService
 
             services.AddScoped<ICotDataContext, CotDataContext>();
             services.AddScoped<IRawCotDataService, RawCotDataService>();
+            services.AddScoped<IRubDataService, RubDataService>();
             services.AddScoped<IDbService, DbService>();
             services.AddScoped<IProcessDataService, ProcessDataService>();
             services.AddSingleton<IDownloadRawCotData, DownloadRawCotData>();
+            services.AddSingleton<IFilterData, FilterData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
