@@ -7,10 +7,18 @@ namespace CoreLibrary.Models
     {
         [DataType(DataType.Date)]
         public DateTime Date { get; set; }
-        public double Long { get; set; }
-        public double Short { get; set; }
-        public double PercentLong { get; set; }
-        public double PercentShort { get; set; }
-        public double NetPositions { get; set; }
+        public int NonCommercialsLong { get; set; }
+        public int NonCommercialsShort { get; set; }
+        public double NonCommercialsPercentLong { get; set; }
+        public double NonCommercialsPercentShort { get; set; }
+        public double NonCommercialsNetPositions { get; set; }
+        public int CommercialsLong { get; set; }
+        public int CommercialsShort { get; set; }
+        public double CommercialsPercentLong { get; set; }
+        public double CommercialsPercentShort { get; set; }
+        public int CommercialsNetPositions { get; set; }
+        public int TotalLong { get; set; }
+        public int TotalShort { get; set; }
+        public int TotalNetPositions { get; set; }
     }
 }
