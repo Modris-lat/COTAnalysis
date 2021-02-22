@@ -46,15 +46,7 @@ namespace ServiceLibrary.Services
         public ServiceResult SaveRubData(DateTime date)
         {
             var data = GetData(date, DataType.Currency, Symbols.Rub);
-            var rubData = new RubData
-            {
-                Date = date,
-                Long = data[0],
-                Short = data[1],
-                PercentLong = data[0]/(data[0] + data[1]),
-                PercentShort = data[1]/(data[0] + data[1]),
-                NetPositions = data[0] - data[1]
-            };
+            RubData rubData = GetData(data, new RubData());
             var result = _rubDataService.Create(rubData);
             return result;
         }
@@ -124,7 +116,7 @@ namespace ServiceLibrary.Services
             throw new NotImplementedException();
         }
 
-        IList<double> GetData(DateTime date, string exchange, string symbol)
+        IList<int> GetData(DateTime date, string exchange, string symbol)
         {
             var rawDataList = _rawDataService.Get();
             var rawData = rawDataList.SingleOrDefault(data => 
@@ -151,7 +143,31 @@ namespace ServiceLibrary.Services
             {
                 return _filter.Filter(rawData.NewYorkExchange, symbol);
             }
-            return new List<double>{};
+            return new List<int>{};
+        }
+        double CalculatePercentage(int baseNumber, int addNumber)
+        {
+            double result = ((double)baseNumber / (baseNumber + addNumber)) * 100;
+            return Math.Round(result);
+        }
+
+        T GetData<T>(IList<int> data, T entity) where T: CotDataDb
+        {
+            entity.NonCommercialsLong = data[0];
+            entity.NonCommercialsShort = data[1];
+            entity.NonCommercialsPercentLong = CalculatePercentage(data[0], data[1]);
+            entity.NonCommercialsPercentShort = CalculatePercentage(data[1], data[0]);
+            entity.NonCommercialsNetPositions = data[0] - data[1];
+            entity.CommercialsLong = data[3];
+            entity.CommercialsShort = data[4];
+            entity.CommercialsPercentLong = CalculatePercentage(data[3], data[4]);
+            entity.CommercialsPercentShort = CalculatePercentage(data[4], data[3]);
+            entity.CommercialsNetPositions = data[3] - data[4];
+            entity.TotalLong = data[0] + data[3];
+            entity.TotalShort = data[1] + data[4];
+            entity.TotalNetPositions = entity.TotalLong - entity.TotalShort;
+
+            return entity;
         }
     }
 }

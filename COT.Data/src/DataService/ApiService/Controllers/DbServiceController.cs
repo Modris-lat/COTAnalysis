@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using ApiService.Controllers.AbstractControllers;
 using ApiService.Models;
+using ApiService.Static;
 using ServiceLibrary.Interfaces;
 
 namespace ApiService.Controllers
@@ -14,12 +15,12 @@ namespace ApiService.Controllers
         public DbServiceController(IProcessDataService processData): 
             base(processData){ }
 
-        [HttpPost("{download}")]
-        public async Task<IActionResult> PostRawData(string download)
+        [HttpPost("raw")]
+        public async Task<IActionResult> PostRawData(SaveRequest request)
         {
-            var date = DateTime.Now;
-            if (download == "download")
+            if (request.Command == ControllerCommands.Download)
             {
+                var date = DateTime.Parse(request.Date).Date;
                 var result = await _processData.SaveRawData(date);
                 return Ok(result);
             }
@@ -31,9 +32,9 @@ namespace ApiService.Controllers
         {
             try
             {
-                var date = DateTime.Parse(saveRub.Date);
-                if (saveRub.Command == "save")
+                if (saveRub.Command == ControllerCommands.Save)
                 {
+                    var date = DateTime.Parse(saveRub.Date).Date;
                     var result = _processData.SaveRubData(date);
                     return Ok(result);
                 }

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CoreLibrary.Models
 {
-    public class CotDataDb: Entity
+    public abstract class CotDataDb: Entity
     {
         [DataType(DataType.Date)]
         public DateTime Date { get; set; }
