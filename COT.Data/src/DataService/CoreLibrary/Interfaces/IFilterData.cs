@@ -4,6 +4,6 @@ namespace CoreLibrary.Interfaces
 {
     public interface IFilterData
     {
-        IList<double> Filter(string inputData, string symbol);
+        IList<int> Filter(string inputData, string symbol);
     }
 }

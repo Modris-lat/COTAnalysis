@@ -7,9 +7,8 @@ namespace CoreLibrary.Services
 {
     public class FilterData: IFilterData
     {
-        public IList<double> Filter(string inputData, string symbol)
+        public IList<int> Filter(string inputData, string symbol)
         {
-            var list = new List<double>{};
             var count = 0;
             string[] text = inputData.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
             for (int i = 0; i < text.Length; i++)
@@ -22,14 +21,14 @@ namespace CoreLibrary.Services
 
                 if (i > 10 && count == 9)
                 {
-                    string[] data = text[i].Split(" ");
+                    string[] data = text[i].Replace(",", "").Split(" ");
                     var filteredData = data.Where(d => d.Length > 0)
                         .ToList()
-                        .ConvertAll(d=>double.Parse(d));
+                        .ConvertAll(d=>int.Parse(d));
                     return filteredData;
                 }
             };
-            return list;
+            return new List<int> { }; ;
         }
     }
 }
