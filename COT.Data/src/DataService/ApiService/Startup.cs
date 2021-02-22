@@ -36,6 +36,7 @@ namespace ApiService
             services.AddScoped<ICotDataContext, CotDataContext>();
             services.AddScoped<IRawCotDataService, RawCotDataService>();
             services.AddScoped<IRubDataService, RubDataService>();
+            services.AddScoped<IChfDataService, ChfDataService>();
             services.AddScoped<IDbService, DbService>();
             services.AddScoped<IProcessDataService, ProcessDataService>();
             services.AddSingleton<IDownloadRawCotData, DownloadRawCotData>();

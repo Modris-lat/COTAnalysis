@@ -17,16 +17,19 @@ namespace ServiceLibrary.Services
         private readonly IRawCotDataService _rawDataService;
         private readonly IFilterData _filter;
         private readonly IRubDataService _rubDataService;
+        private readonly IChfDataService _chfDataService;
         public ProcessDataService(
             IRawCotDataService rawDataService, 
             IDownloadRawCotData downloadData,
             IFilterData filter,
-            IRubDataService rubDataService)
+            IRubDataService rubDataService,
+            IChfDataService chfDataService)
         {
             _rawDataService = rawDataService;
             _downloadData = downloadData;
             _filter = filter;
             _rubDataService = rubDataService;
+            _chfDataService = chfDataService;
         }
 
         public async Task<ServiceResult> SaveRawData(DateTime date)
@@ -47,71 +50,76 @@ namespace ServiceLibrary.Services
         {
             var data = GetData(date, DataType.Currency, Symbols.Rub);
             RubData rubData = GetData(data, new RubData());
+            rubData.Date = date;
             var result = _rubDataService.Create(rubData);
             return result;
         }
 
-        public Task<ServiceResult> SaveChfData(DateTime date)
+        public ServiceResult SaveChfData(DateTime date)
+        {
+            var data = GetData(date, DataType.Currency, Symbols.Chf);
+            ChfData chfData = GetData(data, new ChfData());
+            chfData.Date = date;
+            var result = _chfDataService.Create(chfData);
+            return result;
+        }
+
+        public ServiceResult SaveBtcData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveBtcData(DateTime date)
+        public ServiceResult SaveEurData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveEurData(DateTime date)
+        public ServiceResult SaveGbpData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveGbpData(DateTime date)
+        public ServiceResult SaveNzdData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveNzdData(DateTime date)
+        public ServiceResult SaveAudData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveAudData(DateTime date)
+        public ServiceResult SaveJpyData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveJpyData(DateTime date)
+        public ServiceResult SaveCadData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveCadData(DateTime date)
+        public ServiceResult SaveUsdData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveUsdData(DateTime date)
+        public ServiceResult SaveGoldData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveGoldData(DateTime date)
+        public ServiceResult SaveSilverData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveSilverData(DateTime date)
+        public ServiceResult SaveCrudeOilData(DateTime date)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ServiceResult> SaveCrudeOilData(DateTime date)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<ServiceResult> SaveNatGasData(DateTime date)
+        public ServiceResult SaveNatGasData(DateTime date)
         {
             throw new NotImplementedException();
         }

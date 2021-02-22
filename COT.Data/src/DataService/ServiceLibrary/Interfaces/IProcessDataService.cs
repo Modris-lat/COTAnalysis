@@ -8,18 +8,18 @@ namespace ServiceLibrary.Interfaces
     {
         Task<ServiceResult> SaveRawData(DateTime date);
         ServiceResult SaveRubData(DateTime date);
-        Task<ServiceResult> SaveChfData(DateTime date);
-        Task<ServiceResult> SaveBtcData(DateTime date);
-        Task<ServiceResult> SaveEurData(DateTime date);
-        Task<ServiceResult> SaveGbpData(DateTime date);
-        Task<ServiceResult> SaveNzdData(DateTime date);
-        Task<ServiceResult> SaveAudData(DateTime date);
-        Task<ServiceResult> SaveJpyData(DateTime date);
-        Task<ServiceResult> SaveCadData(DateTime date);
-        Task<ServiceResult> SaveUsdData(DateTime date);
-        Task<ServiceResult> SaveGoldData(DateTime date);
-        Task<ServiceResult> SaveSilverData(DateTime date);
-        Task<ServiceResult> SaveCrudeOilData(DateTime date);
-        Task<ServiceResult> SaveNatGasData(DateTime date);
+        ServiceResult SaveChfData(DateTime date);
+        ServiceResult SaveBtcData(DateTime date);
+        ServiceResult SaveEurData(DateTime date);
+        ServiceResult SaveGbpData(DateTime date);
+        ServiceResult SaveNzdData(DateTime date);
+        ServiceResult SaveAudData(DateTime date);
+        ServiceResult SaveJpyData(DateTime date);
+        ServiceResult SaveCadData(DateTime date);
+        ServiceResult SaveUsdData(DateTime date);
+        ServiceResult SaveGoldData(DateTime date);
+        ServiceResult SaveSilverData(DateTime date);
+        ServiceResult SaveCrudeOilData(DateTime date);
+        ServiceResult SaveNatGasData(DateTime date);
     }
 }
