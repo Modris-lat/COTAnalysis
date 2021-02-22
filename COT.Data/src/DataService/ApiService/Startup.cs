@@ -37,6 +37,18 @@ namespace ApiService
             services.AddScoped<IRawCotDataService, RawCotDataService>();
             services.AddScoped<IRubDataService, RubDataService>();
             services.AddScoped<IChfDataService, ChfDataService>();
+            services.AddScoped<IBtcDataService, BtcDataService>();
+            services.AddScoped<IEurDataService, EurDataService>();
+            services.AddScoped<IGbpDataService, GbpDataService>();
+            services.AddScoped<ICadDataService, CadDataService>();
+            services.AddScoped<IJpyDataService, JpyDataService>();
+            services.AddScoped<IUsdDataService, UsdDataService>();
+            services.AddScoped<IGoldDataService, GoldDataService>();
+            services.AddScoped<ISilverDataService, SilverDataService>();
+            services.AddScoped<INatGasDataService, NatGasDataService>();
+            services.AddScoped<ICrudeOilDataService, CrudeOilDataService>();
+            services.AddScoped<INzdDataService, NzdDataService>();
+            services.AddScoped<IAudDataService, AudDataService>();
             services.AddScoped<IDbService, DbService>();
             services.AddScoped<IProcessDataService, ProcessDataService>();
             services.AddSingleton<IDownloadRawCotData, DownloadRawCotData>();

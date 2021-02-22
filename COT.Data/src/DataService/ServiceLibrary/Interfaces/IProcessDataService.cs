@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using CoreLibrary.Services;
 
@@ -7,6 +8,7 @@ namespace ServiceLibrary.Interfaces
     public interface IProcessDataService
     {
         Task<ServiceResult> SaveRawData(DateTime date);
+        IEnumerable<ServiceResult> SaveAll(DateTime date);
         ServiceResult SaveRubData(DateTime date);
         ServiceResult SaveChfData(DateTime date);
         ServiceResult SaveBtcData(DateTime date);

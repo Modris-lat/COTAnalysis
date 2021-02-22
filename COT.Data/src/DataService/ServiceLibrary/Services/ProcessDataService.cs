@@ -11,25 +11,20 @@ using ServiceLibrary.Interfaces;
 
 namespace ServiceLibrary.Services
 {
-    public class ProcessDataService: IProcessDataService
+    public class ProcessDataService: DataService, IProcessDataService
     {
-        private readonly IDownloadRawCotData _downloadData;
-        private readonly IRawCotDataService _rawDataService;
-        private readonly IFilterData _filter;
-        private readonly IRubDataService _rubDataService;
-        private readonly IChfDataService _chfDataService;
         public ProcessDataService(
-            IRawCotDataService rawDataService, 
-            IDownloadRawCotData downloadData,
-            IFilterData filter,
-            IRubDataService rubDataService,
-            IChfDataService chfDataService)
+            IRawCotDataService rawDataService, IDownloadRawCotData downloadData, IFilterData filter,
+            IRubDataService rubDataService, IChfDataService chfDataService, IBtcDataService btcDataService,
+            IEurDataService eurDataService, IGbpDataService gbpDataService, IAudDataService audDataService,
+            INzdDataService nzdDataService, ICadDataService cadDataService, IJpyDataService jpyDataService,
+            IGoldDataService goldDataService, ISilverDataService silverDataService, ICrudeOilDataService crudeOilDataService,
+            INatGasDataService natGasDataService, IUsdDataService usdDataService):
+            base(rawDataService, downloadData, filter, rubDataService, chfDataService, btcDataService, 
+                eurDataService, gbpDataService, audDataService, nzdDataService, cadDataService, 
+                jpyDataService, goldDataService, silverDataService, crudeOilDataService, natGasDataService,
+                usdDataService)
         {
-            _rawDataService = rawDataService;
-            _downloadData = downloadData;
-            _filter = filter;
-            _rubDataService = rubDataService;
-            _chfDataService = chfDataService;
         }
 
         public async Task<ServiceResult> SaveRawData(DateTime date)
@@ -44,6 +39,16 @@ namespace ServiceLibrary.Services
                 NewYorkExchange = data[DataType.Energy]
             };
             return _rawDataService.Create(rawData);
+        }
+
+        public IEnumerable<ServiceResult> SaveAll(DateTime date)
+        {
+            var list = new List<ServiceResult> { };
+            var resultSaveRubData = SaveRubData(date);
+            list.Add(resultSaveRubData);
+            var resultSaveChfData = SaveChfData(date);
+            list.Add(resultSaveChfData);
+            return list;
         }
 
         public ServiceResult SaveRubData(DateTime date)
@@ -66,62 +71,110 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveBtcData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Currency, Symbols.Btc);
+            BtcData btcData = GetData(data, new BtcData());
+            btcData.Date = date;
+            var result = _btcDataService.Create(btcData);
+            return result;
         }
 
         public ServiceResult SaveEurData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Currency, Symbols.Eur);
+            EurData eurData = GetData(data, new EurData());
+            eurData.Date = date;
+            var result = _eurDataService.Create(eurData);
+            return result;
         }
 
         public ServiceResult SaveGbpData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Currency, Symbols.Gbp);
+            GbpData gbpData = GetData(data, new GbpData());
+            gbpData.Date = date;
+            var result = _gbpDataService.Create(gbpData);
+            return result;
         }
 
         public ServiceResult SaveNzdData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Currency, Symbols.Nzd);
+            NzdData nzdData = GetData(data, new NzdData());
+            nzdData.Date = date;
+            var result = _nzdDataService.Create(nzdData);
+            return result;
         }
 
         public ServiceResult SaveAudData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Currency, Symbols.Aud);
+            AudData audData = GetData(data, new AudData());
+            audData.Date = date;
+            var result = _audDataService.Create(audData);
+            return result;
         }
 
         public ServiceResult SaveJpyData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Currency, Symbols.Jpy);
+            JpyData jpyData = GetData(data, new JpyData());
+            jpyData.Date = date;
+            var result = _jpyDataService.Create(jpyData);
+            return result;
         }
 
         public ServiceResult SaveCadData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Currency, Symbols.Cad);
+            CadData cadData = GetData(data, new CadData());
+            cadData.Date = date;
+            var result = _cadDataService.Create(cadData);
+            return result;
         }
 
         public ServiceResult SaveUsdData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Ice, Symbols.Usd);
+            UsdData usdData = GetData(data, new UsdData());
+            usdData.Date = date;
+            var result = _usdDataService.Create(usdData);
+            return result;
         }
 
         public ServiceResult SaveGoldData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Commodity, Symbols.Gold);
+            GoldData goldData = GetData(data, new GoldData());
+            goldData.Date = date;
+            var result = _goldDataService.Create(goldData);
+            return result;
         }
 
         public ServiceResult SaveSilverData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Commodity, Symbols.Silver);
+            SilverData silverData = GetData(data, new SilverData());
+            silverData.Date = date;
+            var result = _silverDataService.Create(silverData);
+            return result;
         }
 
         public ServiceResult SaveCrudeOilData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Energy, Symbols.CrudeOil);
+            CrudeOilData crudeOilData = GetData(data, new CrudeOilData());
+            crudeOilData.Date = date;
+            var result = _crudeOilDataService.Create(crudeOilData);
+            return result;
         }
 
         public ServiceResult SaveNatGasData(DateTime date)
         {
-            throw new NotImplementedException();
+            var data = GetData(date, DataType.Energy, Symbols.NatGas);
+            NatGasData natGasData = GetData(data, new NatGasData());
+            natGasData.Date = date;
+            var result = _natGasDataService.Create(natGasData);
+            return result;
         }
 
         IList<int> GetData(DateTime date, string exchange, string symbol)
