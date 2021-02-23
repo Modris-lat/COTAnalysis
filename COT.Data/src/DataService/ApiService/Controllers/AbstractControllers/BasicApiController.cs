@@ -7,14 +7,35 @@ namespace ApiService.Controllers.AbstractControllers
     {
         protected readonly IRawCotDataService _rawCotDataService;
         protected readonly IRubDataService _rubDataService;
-        public BasicApiController(IRawCotDataService rawCotDataService)
+        protected readonly IChfDataService _chfDataService;
+        protected readonly IBtcDataService _btcDataService;
+        protected readonly IEurDataService _eurDataService;
+        protected readonly IGbpDataService _gbpDataService;
+        protected BasicApiController(IRawCotDataService rawCotDataService)
         {
             _rawCotDataService = rawCotDataService;
         }
 
-        public BasicApiController(IRubDataService rubDataService)
+        protected BasicApiController(IRubDataService rubDataService)
         {
             _rubDataService = rubDataService;
+        }
+
+        protected BasicApiController(IChfDataService chfDataService)
+        {
+            _chfDataService = chfDataService;
+        }
+        protected BasicApiController(IBtcDataService btcDataService)
+        {
+            _btcDataService = btcDataService;
+        }
+        protected BasicApiController(IEurDataService eurDataService)
+        {
+            _eurDataService = eurDataService;
+        }
+        protected BasicApiController(IGbpDataService gbpDataService)
+        {
+            _gbpDataService = gbpDataService;
         }
     }
 }

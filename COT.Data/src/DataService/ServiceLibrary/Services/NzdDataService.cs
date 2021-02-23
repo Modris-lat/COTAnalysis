@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CoreLibrary.Models;
+﻿using CoreLibrary.Models;
 using DataLibrary.Interfaces;
 using ServiceLibrary.Interfaces;
 

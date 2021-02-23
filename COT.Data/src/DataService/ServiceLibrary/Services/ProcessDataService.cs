@@ -48,6 +48,30 @@ namespace ServiceLibrary.Services
             list.Add(resultSaveRubData);
             var resultSaveChfData = SaveChfData(date);
             list.Add(resultSaveChfData);
+            var resultSaveBtcData = SaveBtcData(date);
+            list.Add(resultSaveBtcData);
+            var resultSaveEurData = SaveEurData(date);
+            list.Add(resultSaveEurData);
+            var resultSaveGbpData = SaveGbpData(date);
+            list.Add(resultSaveGbpData);
+            var resultSaveNzdData = SaveNzdData(date);
+            list.Add(resultSaveNzdData);
+            var resultSaveAudData = SaveAudData(date);
+            list.Add(resultSaveAudData);
+            var resultSaveJpyData = SaveJpyData(date);
+            list.Add(resultSaveJpyData);
+            var resultSaveCadData = SaveCadData(date);
+            list.Add(resultSaveCadData);
+            var resultSaveUsdData = SaveUsdData(date);
+            list.Add(resultSaveUsdData);
+            var resultSaveGoldData = SaveGoldData(date);
+            list.Add(resultSaveGoldData);
+            var resultSaveSilverData = SaveSilverData(date);
+            list.Add(resultSaveSilverData);
+            var resultSaveCrudeOilData = SaveCrudeOilData(date);
+            list.Add(resultSaveCrudeOilData);
+            var resultSaveNatGasData = SaveNatGasData(date);
+            list.Add(resultSaveNatGasData);
             return list;
         }
 

@@ -28,13 +28,13 @@ namespace ApiService.Controllers
             return BadRequest();
         }
         [HttpPost("rub")]
-        public IActionResult PostRubData(SaveRequest saveRub)
+        public IActionResult PostRubData(SaveRequest request)
         {
             try
             {
-                if (saveRub.Command == ControllerCommands.Save)
+                if (request.Command == ControllerCommands.Save)
                 {
-                    var date = DateTime.Parse(saveRub.Date).Date;
+                    var date = DateTime.Parse(request.Date).Date;
                     var result = _processData.SaveRubData(date);
                     return Ok(result);
                 }
@@ -42,6 +42,25 @@ namespace ApiService.Controllers
                 return NotFound();
             }
             catch(Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+        [HttpPost("chf")]
+        public IActionResult PostChfData(SaveRequest request)
+        {
+            try
+            {
+                if (request.Command == ControllerCommands.Save)
+                {
+                    var date = DateTime.Parse(request.Date).Date;
+                    var result = _processData.SaveChfData(date);
+                    return Ok(result);
+                }
+
+                return NotFound();
+            }
+            catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
