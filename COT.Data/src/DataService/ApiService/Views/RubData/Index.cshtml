@@ -58,50 +58,55 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Date)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NonCommercialsLong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NonCommercialsShort)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NonCommercialsPercentLong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NonCommercialsPercentShort)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NonCommercialsNetPositions)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CommercialsLong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CommercialsShort)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CommercialsPercentLong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CommercialsPercentShort)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CommercialsNetPositions)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalLong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalShort)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalNetPositions)
-            </td>
-        </tr>
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NonCommercialsLong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NonCommercialsShort)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NonCommercialsPercentLong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NonCommercialsPercentShort)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NonCommercialsNetPositions)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CommercialsLong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CommercialsShort)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CommercialsPercentLong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CommercialsPercentShort)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CommercialsNetPositions)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalLong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalShort)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalNetPositions)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+        </td>
+    </tr>
 }
     </tbody>
 </table>

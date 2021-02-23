@@ -1,0 +1,47 @@
+﻿@model CoreLibrary.Models.RubData
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>RawCotData</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NonCommercialsLong)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NonCommercialsLong)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NonCommercialsShort)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NonCommercialsShort)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NonCommercialsPercentLong)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NonCommercialsPercentLong)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NonCommercialsPercentShort)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NonCommercialsPercentShort)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
