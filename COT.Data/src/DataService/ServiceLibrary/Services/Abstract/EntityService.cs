@@ -7,7 +7,7 @@ using CoreLibrary.Services;
 using DataLibrary.Interfaces;
 using DataLibrary.Service;
 
-namespace ServiceLibrary.Services
+namespace ServiceLibrary.Services.Abstract
 {
     public class EntityService<T>: DbService, IEntityService<T> where T: Entity
     {

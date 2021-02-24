@@ -2,7 +2,7 @@
 
 namespace CoreLibrary.Exceptions
 {
-    public class CotDataNotFoundException: BaseException
+    public class CotDataNotFoundException: Exception
     {
         public CotDataNotFoundException(): base(){}
         public CotDataNotFoundException(string message): base(message){}

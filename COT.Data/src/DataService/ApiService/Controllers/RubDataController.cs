@@ -29,9 +29,5 @@ namespace ApiService.Controllers
 
             return View(rubData);
         }
-        public IActionResult Create()
-        {
-            return View();
-        }
     }
 }

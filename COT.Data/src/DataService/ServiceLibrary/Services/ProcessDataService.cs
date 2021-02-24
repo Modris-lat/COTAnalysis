@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ using CoreLibrary.Models;
 using CoreLibrary.Services;
 using CoreLibrary.Static;
 using ServiceLibrary.Interfaces;
+using ServiceLibrary.Services.Abstract;
 
 namespace ServiceLibrary.Services
 {
@@ -29,6 +31,7 @@ namespace ServiceLibrary.Services
 
         public async Task<ServiceResult> SaveRawData(DateTime date)
         {
+            List<RawCotData> list = _rawDataService.Get().ToList();
             var data = await _downloadData.Download(RawCotDataUrl.UrlList);
             var rawData = new RawCotData
             {
@@ -77,8 +80,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveRubData(DateTime date)
         {
+            List<RubData> list = _rubDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Currency, Symbols.Rub);
-            RubData rubData = GetData(data, new RubData());
+            RubData rubData = CreateEntity(data, new RubData());
             rubData.Date = date;
             var result = _rubDataService.Create(rubData);
             return result;
@@ -86,8 +94,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveChfData(DateTime date)
         {
+            List<ChfData> list = _chfDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Currency, Symbols.Chf);
-            ChfData chfData = GetData(data, new ChfData());
+            ChfData chfData = CreateEntity(data, new ChfData());
             chfData.Date = date;
             var result = _chfDataService.Create(chfData);
             return result;
@@ -95,8 +108,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveBtcData(DateTime date)
         {
+            List<BtcData> list = _btcDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Currency, Symbols.Btc);
-            BtcData btcData = GetData(data, new BtcData());
+            BtcData btcData = CreateEntity(data, new BtcData());
             btcData.Date = date;
             var result = _btcDataService.Create(btcData);
             return result;
@@ -104,8 +122,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveEurData(DateTime date)
         {
+            List<EurData> list = _eurDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Currency, Symbols.Eur);
-            EurData eurData = GetData(data, new EurData());
+            EurData eurData = CreateEntity(data, new EurData());
             eurData.Date = date;
             var result = _eurDataService.Create(eurData);
             return result;
@@ -113,8 +136,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveGbpData(DateTime date)
         {
+            List<GbpData> list = _gbpDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Currency, Symbols.Gbp);
-            GbpData gbpData = GetData(data, new GbpData());
+            GbpData gbpData = CreateEntity(data, new GbpData());
             gbpData.Date = date;
             var result = _gbpDataService.Create(gbpData);
             return result;
@@ -122,8 +150,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveNzdData(DateTime date)
         {
+            List<NzdData> list = _nzdDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Currency, Symbols.Nzd);
-            NzdData nzdData = GetData(data, new NzdData());
+            NzdData nzdData = CreateEntity(data, new NzdData());
             nzdData.Date = date;
             var result = _nzdDataService.Create(nzdData);
             return result;
@@ -131,8 +164,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveAudData(DateTime date)
         {
+            List<AudData> list = _audDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Currency, Symbols.Aud);
-            AudData audData = GetData(data, new AudData());
+            AudData audData = CreateEntity(data, new AudData());
             audData.Date = date;
             var result = _audDataService.Create(audData);
             return result;
@@ -140,8 +178,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveJpyData(DateTime date)
         {
+            List<JpyData> list = _jpyDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Currency, Symbols.Jpy);
-            JpyData jpyData = GetData(data, new JpyData());
+            JpyData jpyData = CreateEntity(data, new JpyData());
             jpyData.Date = date;
             var result = _jpyDataService.Create(jpyData);
             return result;
@@ -149,8 +192,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveCadData(DateTime date)
         {
+            List<CadData> list = _cadDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Currency, Symbols.Cad);
-            CadData cadData = GetData(data, new CadData());
+            CadData cadData = CreateEntity(data, new CadData());
             cadData.Date = date;
             var result = _cadDataService.Create(cadData);
             return result;
@@ -158,8 +206,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveUsdData(DateTime date)
         {
+            List<UsdData> list = _usdDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Ice, Symbols.Usd);
-            UsdData usdData = GetData(data, new UsdData());
+            UsdData usdData = CreateEntity(data, new UsdData());
             usdData.Date = date;
             var result = _usdDataService.Create(usdData);
             return result;
@@ -167,8 +220,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveGoldData(DateTime date)
         {
+            List<GoldData> list = _goldDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Commodity, Symbols.Gold);
-            GoldData goldData = GetData(data, new GoldData());
+            GoldData goldData = CreateEntity(data, new GoldData());
             goldData.Date = date;
             var result = _goldDataService.Create(goldData);
             return result;
@@ -176,8 +234,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveSilverData(DateTime date)
         {
+            List<SilverData> list = _silverDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Commodity, Symbols.Silver);
-            SilverData silverData = GetData(data, new SilverData());
+            SilverData silverData = CreateEntity(data, new SilverData());
             silverData.Date = date;
             var result = _silverDataService.Create(silverData);
             return result;
@@ -185,8 +248,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveCrudeOilData(DateTime date)
         {
+            List<CrudeOilData> list = _crudeOilDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Energy, Symbols.CrudeOil);
-            CrudeOilData crudeOilData = GetData(data, new CrudeOilData());
+            CrudeOilData crudeOilData = CreateEntity(data, new CrudeOilData());
             crudeOilData.Date = date;
             var result = _crudeOilDataService.Create(crudeOilData);
             return result;
@@ -194,8 +262,13 @@ namespace ServiceLibrary.Services
 
         public ServiceResult SaveNatGasData(DateTime date)
         {
+            List<NatGasData> list = _natGasDataService.Get().ToList();
+            if (ExistsByDate(list, date))
+            {
+                return new ServiceResult(false);
+            }
             var data = GetData(date, DataType.Energy, Symbols.NatGas);
-            NatGasData natGasData = GetData(data, new NatGasData());
+            NatGasData natGasData = CreateEntity(data, new NatGasData());
             natGasData.Date = date;
             var result = _natGasDataService.Create(natGasData);
             return result;
@@ -236,7 +309,7 @@ namespace ServiceLibrary.Services
             return Math.Round(result);
         }
 
-        T GetData<T>(IList<int> data, T entity) where T: CotDataDb
+        T CreateEntity<T>(IList<int> data, T entity) where T: CotDataDb
         {
             entity.NonCommercialsLong = data[0];
             entity.NonCommercialsShort = data[1];
@@ -253,6 +326,16 @@ namespace ServiceLibrary.Services
             entity.TotalNetPositions = entity.TotalLong - entity.TotalShort;
 
             return entity;
+        }
+
+        bool ExistsByDate<T>(List<T> entityList, DateTime date) where T: CotDataDb
+        {
+            var entity = entityList.SingleOrDefault(e => e.Date == date);
+            if (entity == null)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

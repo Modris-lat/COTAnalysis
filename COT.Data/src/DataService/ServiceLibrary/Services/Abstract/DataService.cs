@@ -1,7 +1,7 @@
 ﻿using CoreLibrary.Interfaces;
 using ServiceLibrary.Interfaces;
 
-namespace ServiceLibrary.Services
+namespace ServiceLibrary.Services.Abstract
 {
     public abstract class DataService
     {
