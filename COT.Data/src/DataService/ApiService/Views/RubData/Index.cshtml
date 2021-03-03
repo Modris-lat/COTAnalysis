@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<CoreLibrary.Models.RubData>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "RubData Page";
 }
 
 <h1>RUB Data</h1>
@@ -71,7 +71,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.NonCommercialsPercentShort)
         </td>
-        <td>
+        <td style="border-left: solid lightskyblue 1px; border-right: solid lightskyblue 1px; border-bottom: solid lightskyblue 1px;">
             @Html.DisplayFor(modelItem => item.NonCommercialsNetPositions)
         </td>
         <td>
@@ -86,7 +86,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.CommercialsPercentShort)
         </td>
-        <td>
+        <td style="border-left: solid lightskyblue 1px; border-right: solid lightskyblue 1px; border-bottom: solid lightskyblue 1px;">
             @Html.DisplayFor(modelItem => item.CommercialsNetPositions)
         </td>
         <td>
@@ -95,8 +95,11 @@
         <td>
             @Html.DisplayFor(modelItem => item.TotalShort)
         </td>
-        <td>
+        <td style="border-left: solid lightskyblue 1px; border-right: solid lightskyblue 1px; border-bottom: solid lightskyblue 1px;">
             @Html.DisplayFor(modelItem => item.TotalNetPositions)
+        </td>
+        <td>
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
         </td>
     </tr>
 }

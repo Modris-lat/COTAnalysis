@@ -18,14 +18,27 @@ namespace ApiService.Controllers
         [HttpPost("raw")]
         public async Task<IActionResult> PostRawData(SaveRequest request)
         {
-            if (request.Command == ControllerCommands.Download)
+            try
             {
                 var date = DateTime.Parse(request.Date).Date;
-                var result = await _processData.SaveRawData(date);
-                return Ok(result);
-            }
+                if (request.Command == ControllerCommands.Download)
+                {
+                    var result = await _processData.SaveRawData(date);
+                    return Ok(result);
+                }
+                if (request.Command == $"{ControllerCommands.Download} and {ControllerCommands.SaveAll}")
+                {
+                    await _processData.SaveRawData(date);
+                    var result = _processData.SaveAll(date);
+                    return Ok(result);
+                }
 
-            return BadRequest();
+                return NotFound(ControllerCommands.InvalidCommand);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
 
         [HttpPost("all")]
@@ -46,64 +59,7 @@ namespace ApiService.Controllers
                 
             }
 
-            return NotFound();
-        }
-        [HttpPost("rub")]
-        public IActionResult PostRubData(SaveRequest request)
-        {
-            try
-            {
-                if (request.Command == ControllerCommands.Save)
-                {
-                    var date = DateTime.Parse(request.Date).Date;
-                    var result = _processData.SaveRubData(date);
-                    return Ok(result);
-                }
-
-                return NotFound();
-            }
-            catch(Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-        }
-        [HttpPost("chf")]
-        public IActionResult PostChfData(SaveRequest request)
-        {
-            try
-            {
-                if (request.Command == ControllerCommands.Save)
-                {
-                    var date = DateTime.Parse(request.Date).Date;
-                    var result = _processData.SaveChfData(date);
-                    return Ok(result);
-                }
-
-                return NotFound();
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-        }
-        [HttpPost("btc")]
-        public IActionResult PostBtcData(SaveRequest request)
-        {
-            try
-            {
-                if (request.Command == ControllerCommands.Save)
-                {
-                    var date = DateTime.Parse(request.Date).Date;
-                    var result = _processData.SaveBtcData(date);
-                    return Ok(result);
-                }
-
-                return NotFound();
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
+            return NotFound(ControllerCommands.InvalidCommand);
         }
     }
 }
