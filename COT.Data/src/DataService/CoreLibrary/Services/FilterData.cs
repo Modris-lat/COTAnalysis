@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using CoreLibrary.Exceptions;
 using CoreLibrary.Interfaces;
 
 namespace CoreLibrary.Services
@@ -9,26 +10,48 @@ namespace CoreLibrary.Services
     {
         public IList<int> Filter(string inputData, string symbol)
         {
+            if (string.IsNullOrEmpty(inputData))
+            {
+                throw new HtmlInputTextNullException($"Empty downloaded data.");
+            }
+            string line = FindLine(symbol, inputData);
+            return GetFilteredData(line);
+        }
+
+        string FindLine(string symbol, string text)
+        {
             var count = 0;
-            string[] text = inputData.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
-            for (int i = 0; i < text.Length; i++)
+            string[] textArray = text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+            for (int i = 0; i < textArray.Length; i++)
             {
                 count++;
-                if (text[i].StartsWith(symbol))
+                if (textArray[i].StartsWith(symbol))
                 {
                     count = 0;
                 }
 
                 if (i > 10 && count == 9)
                 {
-                    string[] data = text[i].Replace(",", "").Split(" ");
-                    var filteredData = data.Where(d => d.Length > 0)
-                        .ToList()
-                        .ConvertAll(d=>int.Parse(d));
-                    return filteredData;
+                    return textArray[i];
                 }
-            };
-            return new List<int> { }; ;
+            }
+            return string.Empty;
+        }
+        List<int> GetFilteredData(string line)
+        {
+            try
+            {
+                string[] data = line.Replace(",", "")
+                    .Split(" ");
+
+                return data.Where(d => d.Length > 0)
+                    .ToList()
+                    .ConvertAll(d => int.Parse(d));
+            }
+            catch
+            {
+                throw new InvalidTextLineException($"Invalid data for parsing HTML line.");
+            }
         }
     }
 }

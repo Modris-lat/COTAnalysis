@@ -26,7 +26,7 @@ namespace ApiService.Controllers
                     var result = await _processData.SaveRawData(date);
                     return Ok(result);
                 }
-                if (request.Command == $"{ControllerCommands.Download} and {ControllerCommands.SaveAll}")
+                if (request.Command == ControllerCommands.DownloadAndSave)
                 {
                     await _processData.SaveRawData(date);
                     var result = _processData.SaveAll(date);
