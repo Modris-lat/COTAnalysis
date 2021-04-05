@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using CoreLibrary.Exceptions;
 using CoreLibrary.Interfaces;
+using CoreLibrary.Static;
 
 namespace CoreLibrary.Services
 {
@@ -30,12 +31,12 @@ namespace CoreLibrary.Services
                     count = 0;
                 }
 
-                if (i > 10 && count == 9)
+                if (i > StaticValues.SymbolAndDataRowGap && count == StaticValues.SymbolAndDataRowGap)
                 {
                     return textArray[i];
                 }
             }
-            return string.Empty;
+            throw new FindSymbolDataException();
         }
         List<int> GetFilteredData(string line)
         {
