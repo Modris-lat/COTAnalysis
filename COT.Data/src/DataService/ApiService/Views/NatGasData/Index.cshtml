@@ -1,0 +1,109 @@
+﻿@model IEnumerable<CoreLibrary.Models.NatGasData>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Natural Gas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NonCommercialsLong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NonCommercialsShort)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NonCommercialsPercentLong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NonCommercialsPercentShort)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NonCommercialsNetPositions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommercialsLong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommercialsShort)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommercialsPercentLong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommercialsPercentShort)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommercialsNetPositions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalLong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalShort)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalNetPositions)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NonCommercialsLong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NonCommercialsShort)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NonCommercialsPercentLong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NonCommercialsPercentShort)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NonCommercialsNetPositions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommercialsLong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommercialsShort)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommercialsPercentLong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommercialsPercentShort)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommercialsNetPositions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalLong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalShort)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalNetPositions)
+            </td>
+            <td>
+                
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
